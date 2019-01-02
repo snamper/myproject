@@ -1,0 +1,97 @@
+ /deep/ .van-tabbar-item--active {
+  color: #ff4c4c;
+}
+ /deep/ .van-cell {
+  font-size: 0.32rem;
+}
+ /deep/ .van-cell /deep/ .van-icon {
+  font-size: 0.37333333rem;
+}
+ /deep/ .van-icon-arrow {
+  color: #666666;
+}
+/*{all_public}组件定位*/
+/*单行溢出隐藏 {all_public}*/
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+}
+/*多行溢出隐藏 {all_public}*/
+ /deep/ .van-button {
+  background-color: #ff4c4c;
+  color: #ffffff;
+  border-radius: 0.10666667rem;
+}
+.coupon-content {
+  padding: 10px;
+}
+.coupon-content .coupon-list {
+  display: flex;
+  align-items: center;
+  justify-content: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 0.93333333rem 0.26666667rem;
+  position: relative;
+}
+.coupon-content .coupon-list::before,
+.coupon-content .coupon-list::after {
+  content: '';
+  position: absolute;
+  background: #f2f2f2;
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  border-radius: 50%;
+}
+.coupon-content .coupon-list::before {
+  left: -0.26666667rem;
+}
+.coupon-content .coupon-list::after {
+  right: -0.26666667rem;
+}
+.coupon-content .coupon-list .van-col {
+  text-align: center;
+}
+.coupon-content .coupon-list .van-col.price {
+  color: #ff4c4c;
+}
+.coupon-content .coupon-list .van-col.price .number {
+  font-size: 0.8rem;
+  height: 0.8rem;
+}
+.coupon-content .coupon-list .van-col.condition {
+  text-align: left;
+}
+.coupon-content .coupon-list .van-col.condition .text {
+  font-size: 0.4rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  color: #333333;
+  margin-bottom: 6px;
+}
+.coupon-content .coupon-list .van-col.condition time {
+  font-size: 0.32rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  color: #666666;
+}
+.coupon-content .coupon-list .van-col .coupon-button {
+  font-size: 0.32rem;
+  line-height: 0.8rem;
+  height: 0.8rem;
+  padding-left: 0.13333333rem;
+  padding-right: 0.13333333rem;
+}
+ /deep/ .van-icon-checked {
+  color: #ff4c4c;
+}
+/*# sourceMappingURL=theme.css.map */
